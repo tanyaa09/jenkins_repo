@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: myregistry.azurecr.io/java-app:latest
+        image: javaregistry01.azurecr.io/java-app:latest
         ports:
         - containerPort: 8080
